@@ -1,101 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-		<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Image Accordion with CSS3</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Image Accordion with CSS3" />
-        <meta name="keywords" content="accordion, images, slideshow, css3, css-only, web development, component, tutorial" />
-        <meta name="author" content="Ring Wing for Codrops" />
-        <link rel="shortcut icon" href="../favicon.ico"> 
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
-    </head>
-    <body>
-        <div class="container">
-			
-			<header>
-			
-				<h1>Revnikoff business company</span></h1>
-				<h2>look at our directors:</h2>
-				
-				<div class="support-note"><!-- let's check browser support with modernizr -->
-					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
-					<!--span class="no-csstransforms">CSS transforms are not supported in your browser</span-->
-					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
-					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
-					<span class="note-ie">Sorry, only modern browsers.</span>
-				</div>
-				
-			</header>
-			
-			<section class="main">
-			
-				<div class="ia-container">
-				
-					<figure>
-						<img src="images/1.jpg" alt="image01" />
-						<input type="radio" name="radio-set" checked="checked"/>
-						<figcaption><span>True Colors</span></figcaption>
-						
-						<figure>
-							<img src="images/2.jpg" alt="image02" />
-							<input type="radio" name="radio-set" />
-							<figcaption><span>Honest Light</span></figcaption>
-							
-							<figure>
-								<img src="images/3.jpg" alt="image03" />
-								<input type="radio" name="radio-set" />
-								<figcaption><span>Silent Serenity</span></figcaption>
-								
-								<figure>
-									<img src="images/4.jpg" alt="image04" />
-									<input type="radio" name="radio-set" />
-									<figcaption><span>Warm Welcome</span></figcaption>
-									
-									<figure>
-										<img src="images/5.jpg" alt="image05" />
-										<input type="radio" name="radio-set" />
-										<figcaption><span>Sensible Magic</span></figcaption>
-										
-										<figure>
-											<img src="images/6.jpg" alt="image06" />
-											<input type="radio" name="radio-set" />
-											<figcaption><span>Lovely Midnight</span></figcaption>
-								
-											<figure>
-												<img src="images/7.jpg" alt="image07" />
-												<input type="radio" name="radio-set" />
-												<figcaption><span>Illuminated Darkness</span></figcaption>											
+<!-- saved from url=(0038)http://watsapp-me.ru/gocosmo/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gocosmo</title>
+<link rel="stylesheet" href="./gocosmo_files/animate.min.css">
+<link href="./gocosmo_files/css" rel="stylesheet">
+<style>
+        html, body {
+            
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
 
-												<figure>
-													<img src="images/8.jpg" alt="image08" />
-													<input id="ia-selector-last" type="radio" name="radio-set" />
-													<figcaption><span>Happy Child</span></figcaption>
-												</figure>
-												
-											</figure>
-								
-										</figure>	
-											
-									</figure>	
-										
-								</figure>
-									
-							</figure>
-							
-						</figure>
-						
-					</figure>
-					
-				</div><!-- ia-container -->
-				
-			</section>
-			
+<!--
+        #test {
+            display: flex;
+            width: 90%;
+            height: 90%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            background-color: #1ebea5;
+            color: white;
+            text-decoration: none;
+            font-size: 40px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding: 0 5%;
+        } 
+
+        #test div {
+            margin: 0 auto;
+        }
+	
+			#down {
+            display: flex;
+            width: 90%;
+            height: 10%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding: 0 5%;
+        } 
+
+        #down div {
+            margin: 0 auto;
+        }
+-->
+
+        #test {
+            display: flex;
+            width: 90%;
+            height: 45%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            background-color: #1ebea5;
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding: 0 5%;
+        }
+        #test div {
+            margin: 0 auto;
+        }
+		#site {
+            display: flex;
+            width: 90%;
+            height: 45%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            font-size: 35px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding: 0 5%;
+        }
+        #site div {
+            margin: 0 auto;
+        }
+		#down {
+            display: flex;
+            width: 90%;
+            height: 10%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            background-color: #1ebea5;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            padding: 0 5%;
+        } 
+
+        #down div {
+            margin: 0 auto;
+        }
+    </style>
+	<link rel="shortcut icon" type="image/x-icon" href="">
+</head>
+<body onload="some()">
+<a id="test" href="https://api.whatsapp.com/send?phone=79269464055&amp;text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21+%D0%A5%D0%BE%D1%87%D1%83+%D1%81%D0%B4%D0%B0%D1%82%D1%8C+%D0%BE%D0%B1%D1%83%D0%B2%D1%8C+%D0%BD%D0%B0+%D1%87%D0%B8%D1%81%D1%82%D0%BA%D1%83!">
+    <div>
+        <div>
+<img class="animated infinite bounce" src="./gocosmo_files/whatsapp-logo.svg" alt="">
         </div>
-    </body>
-</html>
+        <div>
+Заказать в What’s App
+        </div>
+    </div>
+</a>
+<a id="site" href="https://t.me/revnikov">
+    <div>
+		<div>
+<img class="animated infinite bounce" src="./gocosmo_files/telegram.png" alt="" height="42" width="42">
+        </div>
+        <div>
+Заказать в Telegram
+        </div>
+    </div>
+</a>
+<a id="down" href="https://api.whatsapp.com/send?phone=79269464055&amp;text=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D1%82%D0%B0%D0%BA%D1%83%D1%8E%20WhatsApp%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D1%83.">
+    <div>
+        <div>
+Заказать такую <b>WhatsApp</b> ссылку.
+        </div>
+    </div>
+</a>
+
+</body></html>
